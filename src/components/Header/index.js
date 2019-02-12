@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import logo from '../../assets/icon/company.png';
+import SubHeader from '../SubHeader';
 
 const Header = () => (
   <div className="header-container">
@@ -14,6 +15,7 @@ const Header = () => (
       <a href="/" className="pages">朋友</a>
       <a href="/" className="pages">商城</a>
     </div>
+    <SubHeader />
   </div>
 );
 

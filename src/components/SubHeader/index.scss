@@ -1,0 +1,20 @@
+.subbar-container {
+  background-color: #c20c0c;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  justify-content: center;
+
+  .pages {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    line-height: 35px;
+  }
+
+  .active {
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    background-color: rgba(31,31,31,0.38)
+  }
+}
