@@ -1,0 +1,33 @@
+.board-container {
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+
+    .title {
+      float: left;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 28px;
+    }
+
+    .more {
+      float: right;
+      margin-top: 9px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+}

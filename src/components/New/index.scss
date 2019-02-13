@@ -1,0 +1,58 @@
+.new-container {
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+
+    .title {
+      float: left;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 28px;
+    }
+
+    .more {
+      float: right;
+      margin-top: 9px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .container {
+    position: relative;
+    zoom: 1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+
+    .inner-container {
+      width: 118px;
+      height: 150px;
+      margin-left: 11px;
+
+      img {
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+
+      .name, 
+      .singer {
+        width: 90%;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-wrap: normal;
+      }
+    }
+  }
+}
